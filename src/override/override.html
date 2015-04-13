@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mo' Tab</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	html,body {
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.flexbox-container {
+		display: flex;
+		align-items: center;
+
+		height: 100%;
+	}
+	#inspiration {
+		max-width: 500px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		color: #FFFFFF;
+		padding: 15px;
+		background-color: rgba(0,0,0,0.8);
+		border-radius: 5px;
+		visibility: hidden;
+	}
+	#content,#author {
+		text-align: left;
+	}
+	#author {
+		margin-top: 5px;
+	}
+	</style>
+</head>
+
+<body>
+<div class="flexbox-container">
+	<div id="inspiration">
+		<div id="content"></div>
+		<div id="author"></div>
+	</div>
+</div>
+<script type="text/javascript" src="../../js/override.js"></script>
+</body>
+</html>
